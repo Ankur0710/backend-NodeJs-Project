@@ -1,0 +1,30 @@
+{
+  "name": "express-dynami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js , hbs"
+  },
+  "keywords": [],
+  "author": "Ankur",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "font-awesome": "^4.7.0",
+    "hbs": "^4.2.0",
+    "html": "^1.0.0",
+    "html5": "^1.0.5",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "validator": "^13.7.0",
+    "webpack": "^5.73.0"
+  }, 
+  "engines": {
+    "node": "10.x"
+  }
+}

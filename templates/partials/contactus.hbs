@@ -1,0 +1,79 @@
+<div class="container">
+    <div class="head mt-5 text-center">
+        <h1> HAVE ANY QUESTION </h1>
+    </div>
+    <div class="container">
+        <hr class="featurette-divider hr2 mt-3 mb-3">
+    </div>
+
+    <form action="/contact" method="POST">
+        <div class="row g-3">
+            <div class="col">
+                <label for="inputEmail4" class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="name">
+            </div>
+            <div class="col">
+                <label for="inputEmail4" class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="last name">
+            </div>
+        </div>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="inputEmail4" name="phone">
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="text" class="form-control" id="inputEmail4" name="email">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
+                    name="address2">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Delhi</option>
+                    <option>Arunanchal Pradesh</option>
+                    <option>Bhopal</option>
+                    <option>Rewa</option>
+                    <option>Satna</option>
+                    <option>Jabalpur</option>
+                    <option>Himanchal Pradesh</option>
+                    <option>Prayagraj</option>
+                    <option>Banaras</option>
+                    </option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Enter your Query Here</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary mb-5">Submit Details</button>
+            </div>
+        </form>
+</div>

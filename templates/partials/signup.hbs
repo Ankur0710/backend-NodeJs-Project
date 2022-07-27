@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+        <form action="/sign" method="POST">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name" name="name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Enter your username" name="userid">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your email" name="email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your number" name="number">
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter your password" name="password">
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm your password" name="confirmpassword">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Gender</label>
+                <select id="inputState" class="form-select" name="gender">
+                    <option selected> Choose...</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer not to say</option>
+                    </option>
+                </select>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+            <div class="text-center p-t-2">
+                <a href="/logins" class="txt2 white">Already Have Account</a>
+            </div>
+        </form>
+    </div>
+</div>
